@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Spaceborn<br>👯 I’m looking to collaborate on GSOC<br>🤝 I’m looking for help with Data Science and Firmware Engineering <br>🌱 I’m currently learning Data Science from IIT Madras<br>💬 Ask me about my fields<br>⚡ Fun fact i was very good in leadership roles
+🔭 I’m currently studying iitm bs <br>👯 I’m looking to collaborate on GSOC<br>🤝 I’m looking for help with Data Science and Firmware Engineering <br>🌱 I’m currently learning Data Science from IIT Madras<br>💬 Ask me about my fields<br>⚡ Fun fact i was very good in leadership roles
 
 
 ## 🌐 Socials:
