@@ -131,12 +131,17 @@ ayan@iitm-box:~$ ./status.sh
 
 ## 🏆 GitHub Trophies
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ajlaanayan-crypto&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+  <img src="https://trophy.ryglcloud.net/?username=ajlaanayan-crypto&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />
 </div>
 
-### 🔝 Top Contributed Repo
+### 🔝 Featured & Top Repositories
 <div align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=ajlaanayan-crypto&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo" />
+  <a href="https://github.com/ajlaanayan-crypto/saga-orchestration-architecture">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=ajlaanayan-crypto&repo=saga-orchestration-architecture&theme=default_repocard&hide_border=false" alt="Saga Orchestrator Architecture" />
+  </a>
+  <a href="https://github.com/ajlaanayan-crypto/portfolio-ayan">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=ajlaanayan-crypto&repo=portfolio-ayan&theme=default_repocard&hide_border=false" alt="Portfolio Ayan" />
+  </a>
 </div>
 
 ### ✍️ Random Dev Quote
