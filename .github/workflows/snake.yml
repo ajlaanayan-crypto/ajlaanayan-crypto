@@ -1,4 +1,4 @@
-name: Generate Snake Contribution Animation
+name: Generate Snake and Activity Graph
 
 on:
   schedule:
@@ -17,6 +17,12 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create dist directory
+        run: mkdir -p dist
+
       - name: generate-snake-game-from-github-contribution-grid
         uses: Platane/snk@v3.5.0
         with:
@@ -28,7 +34,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          options: theme=react-dark&bg_color=0D1117&color=58A6FF&line=38B2AC&point=58A6FF&area=true&hide_border=true
+          output_path: dist/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: push outputs to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

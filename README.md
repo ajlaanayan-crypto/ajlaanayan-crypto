@@ -114,7 +114,7 @@ ayan@iitm-box:~$ ./status.sh
 ### 📈 Interactive Contribution Activity Graph:
 <div align="center">
   <a href="https://github.com/ajlaanayan-crypto">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ajlaanayan-crypto&theme=react-dark&bg_color=0D1117&color=58A6FF&line=38B2AC&point=58A6FF&area=true&hide_border=true" width="95%" alt="Activity Graph" />
+    <img src="https://raw.githubusercontent.com/ajlaanayan-crypto/ajlaanayan-crypto/output/activity-graph.svg" width="95%" alt="Activity Graph" />
   </a>
 </div>
 
